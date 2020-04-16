@@ -1,15 +1,11 @@
 #!/usr/bin/python2.7
 #
-# Assignment3 Interface
-#
 
 import psycopg2
 import os
 import threading
 import sys
 
-##################### This needs to changed based on what kind of table we want to sort. ##################
-##################### To know how to change this, see Assignment 3 Instructions carefully #################
 FIRST_TABLE_NAME = 'table1'
 SECOND_TABLE_NAME = 'table2'
 SORT_COLUMN_NAME_FIRST_TABLE = 'column1'
